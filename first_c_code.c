@@ -7,7 +7,6 @@ int main() {
   {
     arr[i]=rand()%100;
    } 
-  int sum=0;
   for(i=0;i<maxlen;i++)
   {
     printf("%d\n",arr[i]);
