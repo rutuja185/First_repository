@@ -1,13 +1,12 @@
 #include<stdio.h>
-int main() {
-  int maxlen=10;                
+int main() {                
   int arr[10]; 
-  int i;
-  for(i=0;i<maxlen;i++)
+  int i,sum=0;
+  for(i=0;i<10;i++)
   {
     arr[i]=rand()%100;
    } 
-  for(i=0;i<maxlen;i++)
+  for(i=0;i<10;i++)
   {
     printf("%d\n",arr[i]);
     sum+=arr[i];
